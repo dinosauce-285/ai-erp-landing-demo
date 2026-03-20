@@ -59,10 +59,10 @@ export function HeroSection() {
           Nâng tầm quy mô doanh nghiệp. Tối ưu trải nghiệm tìm kiếm, tự động điều phối vận chuyển và quản lý đơn hàng đa kênh tập trung bằng trí tuệ nhân tạo.
         </p>
         <div className="flex flex-wrap items-center justify-center gap-4 mt-8 opacity-0">
-          <Link href={process.env.SSO_AUTH_PAGE || '/sign-up'} className="bg-white text-slate-900 border border-transparent hover:bg-slate-200 px-8 py-3.5 rounded-full font-bold transition-transform hover:scale-105 shadow-[0_0_20px_rgba(255,255,255,0.4)] text-lg">
+          <Link href={process.env.NEXT_PUBLIC_SSO_AUTH_PAGE || '/sign-up'} className="bg-white text-slate-900 border border-transparent hover:bg-slate-200 px-8 py-3.5 rounded-full font-bold transition-transform hover:scale-105 shadow-[0_0_20px_rgba(255,255,255,0.4)] text-lg">
             Bắt đầu ngay
           </Link>
-          <Link href={process.env.SSO_AUTH_PAGE || '/sign-in'} className="bg-white/10 text-white border border-white/20 hover:bg-white/20 px-8 py-3.5 rounded-full font-bold backdrop-blur-md transition-colors text-lg">
+          <Link href={process.env.NEXT_PUBLIC_SSO_AUTH_PAGE || '/sign-in'} className="bg-white/10 text-white border border-white/20 hover:bg-white/20 px-8 py-3.5 rounded-full font-bold backdrop-blur-md transition-colors text-lg">
             Đăng nhập
           </Link>
         </div>

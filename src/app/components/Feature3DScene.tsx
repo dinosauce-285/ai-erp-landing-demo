@@ -51,8 +51,8 @@ export function Feature3DScene() {
         <ambientLight intensity={1} />
         <directionalLight position={[5, 5, 5]} intensity={2.5} />
         <directionalLight position={[-5, -5, -5]} intensity={1} color="#9692ff" />
+        <Environment files="/hdr/potsdamer_platz_1k.hdr" />
         <GlassObject />
-        <Environment preset="city" />
       </Canvas>
     </div>
   );

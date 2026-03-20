@@ -57,6 +57,7 @@ const PRICING_PLANS = [
 
 export function PricingSection() {
   const container = useRef<HTMLDivElement>(null);
+  const authHref = process.env.NEXT_PUBLIC_SSO_AUTH_PAGE || '/sign-up';
 
   useGsapAnimations((gsapContext, isReduced) => {
     if (!container.current) return;
@@ -134,7 +135,7 @@ export function PricingSection() {
               </div>
 
               <Link 
-                href={plan.href} 
+                href={plan.href === '/sign-up' ? authHref : plan.href} 
                 className={`w-full py-4 rounded-xl font-bold text-center transition-all ${plan.isPopular ? 'bg-white text-slate-900 hover:bg-slate-200 hover:scale-105' : 'bg-white/5 text-white hover:bg-white/10 border border-white/10'}`}
               >
                 {plan.cta}

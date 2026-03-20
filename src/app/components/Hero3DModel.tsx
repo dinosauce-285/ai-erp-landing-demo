@@ -92,10 +92,10 @@ export function Hero3DModel() {
         
         {/* Futuristic starfield backdrop for the tech vibe */}
         <Stars radius={100} depth={50} count={2500} factor={4} saturation={0} fade speed={1.5} />
+        <Environment files="/hdr/potsdamer_platz_1k.hdr" />
         
         <AbstractCore />
         <NetworkLines />
-        <Environment preset="city" />
       </Canvas>
     </div>
   );

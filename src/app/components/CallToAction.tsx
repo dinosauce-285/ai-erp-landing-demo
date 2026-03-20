@@ -49,7 +49,7 @@ export function CallToAction() {
           Bước vào kỷ nguyên mới của quản trị kinh doanh. Triển khai nền tảng AI ERP của riêng bạn chỉ trong vài phút.
         </p>
         <div className="flex flex-wrap items-center justify-center gap-4 mt-8">
-          <Link href={process.env.SSO_AUTH_PAGE || '/sign-up'} className="bg-white text-slate-900 hover:bg-slate-200 px-8 py-4 rounded-full font-bold transition-transform hover:scale-105 shadow-[0_0_25px_rgba(255,255,255,0.4)] text-lg inline-block">
+          <Link href={process.env.NEXT_PUBLIC_SSO_AUTH_PAGE || '/sign-up'} className="bg-white text-slate-900 hover:bg-slate-200 px-8 py-4 rounded-full font-bold transition-transform hover:scale-105 shadow-[0_0_25px_rgba(255,255,255,0.4)] text-lg inline-block">
             Bắt đầu dùng thử miễn phí
           </Link>
           <Link href="/contact-sales" className="px-8 py-4 rounded-full bg-transparent border border-white/20 text-white font-bold text-lg hover:bg-white/10 transition-colors inline-block">

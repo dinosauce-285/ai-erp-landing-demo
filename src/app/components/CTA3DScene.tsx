@@ -40,8 +40,8 @@ export function CTA3DScene() {
         <ambientLight intensity={0.2} />
         <directionalLight position={[10, 10, 10]} intensity={3} color="#0078d4" />
         <directionalLight position={[-10, -10, -10]} intensity={2} color="#9692ff" />
+        <Environment files="/hdr/studio_small_03_1k.hdr" />
         <FloatingKnot />
-        <Environment preset="studio" />
       </Canvas>
     </div>
   );
