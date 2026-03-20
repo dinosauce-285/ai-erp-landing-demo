@@ -50,7 +50,7 @@ const PRICING_PLANS = [
       'Chiến lược gia quản lý tài khoản riêng'
     ],
     cta: 'Liên hệ tư vấn',
-    href: '/contact-sales',
+    href: 'https://example.com/',
     isPopular: false,
   },
 ];

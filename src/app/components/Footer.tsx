@@ -20,8 +20,8 @@ export function Footer() {
         <div className="mt-16 pt-8 w-full flex flex-col md:flex-row justify-between items-center text-sm text-slate-400">
           <p>&copy; {new Date().getFullYear()} Jarvis AI ERP. Mọi quyền được bảo lưu.</p>
           <div className="flex gap-4 mt-4 md:mt-0">
-            <Link href="/privacy" className="hover:text-white transition-colors">Chính sách Bảo mật</Link>
-            <Link href="/terms" className="hover:text-white transition-colors">Điều khoản Dịch vụ</Link>
+            <Link href="https://example.com/" className="hover:text-white transition-colors">Chính sách Bảo mật</Link>
+            <Link href="https://example.com/" className="hover:text-white transition-colors">Điều khoản Dịch vụ</Link>
           </div>
         </div>
       </div>

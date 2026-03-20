@@ -52,7 +52,7 @@ export function CallToAction() {
           <Link href={process.env.NEXT_PUBLIC_SSO_AUTH_PAGE || '/sign-up'} className="bg-white text-slate-900 hover:bg-slate-200 px-8 py-4 rounded-full font-bold transition-transform hover:scale-105 shadow-[0_0_25px_rgba(255,255,255,0.4)] text-lg inline-block">
             Bắt đầu dùng thử miễn phí
           </Link>
-          <Link href="/contact-sales" className="px-8 py-4 rounded-full bg-transparent border border-white/20 text-white font-bold text-lg hover:bg-white/10 transition-colors inline-block">
+          <Link href="https://example.com/" className="px-8 py-4 rounded-full bg-transparent border border-white/20 text-white font-bold text-lg hover:bg-white/10 transition-colors inline-block">
             Liên hệ Tư vấn
           </Link>
         </div>
